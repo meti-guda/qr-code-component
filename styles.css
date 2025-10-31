@@ -18,27 +18,26 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 1.25rem 1.25rem rgba(0, 0, 0, 0.05);
 }
 
 .qr-code img {
   width: 100%;
   border-radius: 0.625rem;
   display: block;
+  padding: 0.4rem;
 }
 
 .text {
   text-align: center;
   margin-block-start: 1.25rem;
   padding-inline: 0.5rem;
-  font-family: "Outfit", sans-serif;
 }
 
 .top {
   font-weight: 700;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   color: hsl(218, 44%, 22%);
-  margin-block-end: 0.625rem;
+  margin-bottom: 0.75rem;
   line-height: 1.3;
 }
 
