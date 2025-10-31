@@ -1,3 +1,4 @@
+/* Base setup */
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", Arial, Helvetica, sans-serif;
@@ -9,29 +10,31 @@ body {
   margin: 0;
 }
 
+/* Main QR component */
 .container {
   background-color: white;
-  border-radius: 15px;
+  border-radius: 20px;
   width: 90%;
-  max-width: 300px;
+  max-width: 320px;
   padding: 16px;
-  margin: 100px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.qr-code {
-  justify-self: center;
-}
-img {
+/* Image */
+.qr-code img {
   width: 100%;
   border-radius: 10px;
+  display: block;
 }
 
+/* Text section */
 .text {
   text-align: center;
   margin-top: 20px;
+  padding: 0 8px;
+  font-family: "Outfit", sans-serif;
 }
 
 .top {
@@ -43,17 +46,24 @@ img {
 
 .bottom {
   font-weight: 400;
-  font-size: 0.95rem;
-  color: hsl(216, 15%, 48%);
-}
-
-.bottom {
-  font-weight: 400;
   font-size: 15px;
   color: hsl(216, 15%, 48%);
+  line-height: 1.4;
 }
 
+/* Footer attribution */
 .attribution {
-  margin: 20px;
-  align-self: center;
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.attribution a:hover {
+  text-decoration: underline;
 }
