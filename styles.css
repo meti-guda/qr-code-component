@@ -1,10 +1,12 @@
 body {
   background-color: hsl(212, 45%, 89%);
-  margin: 0;
-  padding: 0;
-  position: relative;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
 }
 
 .container {
@@ -23,23 +25,26 @@ body {
   justify-self: center;
 }
 img {
-  width: 280px;
-  height: 250px;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 20px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .text {
-  font-family: "Outfit", Arial, Helvetica, sans-serif;
-  align-items: center;
-  margin: 20px;
   text-align: center;
+  margin-top: 20px;
 }
+
 .top {
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.25rem;
   color: hsl(218, 44%, 22%);
+  margin-bottom: 10px;
+}
+
+.bottom {
+  font-weight: 400;
+  font-size: 0.95rem;
+  color: hsl(216, 15%, 48%);
 }
 
 .bottom {
